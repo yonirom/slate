@@ -593,6 +593,7 @@ static SlateConfig *_instance = nil;
   [configDefaults setObject:GRID_CELL_SELECTED_COLOR_DEFAULT forKey:GRID_CELL_SELECTED_COLOR];
   [configDefaults setObject:GRID_CELL_ROUNDED_CORNER_SIZE_DEFAULT forKey:GRID_CELL_ROUNDED_CORNER_SIZE];
   [configDefaults setObject:LAYOUT_FOCUS_ON_ACTIVATE_DEFAULT forKey:LAYOUT_FOCUS_ON_ACTIVATE];
+  [configDefaults setObject:TERMINATE_APP_ON_LAST_WINDOW_DEFAULT forKey:TERMINATE_APP_ON_LAST_WINDOW];
   [configDefaults setObject:SNAPSHOT_MAX_STACK_SIZE_DEFAULT forKey:SNAPSHOT_MAX_STACK_SIZE];
   [configDefaults setObject:UNDO_MAX_STACK_SIZE_DEFAULT forKey:UNDO_MAX_STACK_SIZE];
   [configDefaults setObject:UNDO_OPS_DEFAULT forKey:UNDO_OPS];

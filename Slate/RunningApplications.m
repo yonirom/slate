@@ -377,6 +377,11 @@ static void windowCallback(AXObserverRef observer, AXUIElementRef element, CFStr
       for (NSArray *windowInfo in windowsToRemove) {
         [self removeWindow:windowInfo];
         SlateLogger(@"  PRUNE Because app has no windows");
+        if ([[SlateConfig getInstance] getBoolConfig:TERMINATE_APP_ON_LAST_WINDOW])
+        {
+            SlateLogger(@"  TERMINATING App %@", [app localizedName]);
+            [app terminate];
+        }
       }
       continue;
     }

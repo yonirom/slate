@@ -154,6 +154,8 @@ extern NSString *const GRID_CELL_ROUNDED_CORNER_SIZE;
 extern NSString *const GRID_CELL_ROUNDED_CORNER_SIZE_DEFAULT;
 extern NSString *const LAYOUT_FOCUS_ON_ACTIVATE;
 extern NSString *const LAYOUT_FOCUS_ON_ACTIVATE_DEFAULT;
+extern NSString *const TERMINATE_APP_ON_LAST_WINDOW;
+extern NSString *const TERMINATE_APP_ON_LAST_WINDOW_DEFAULT;
 extern NSString *const MODAL_ESCAPE_KEY;
 extern NSString *const MODAL_ESCAPE_KEY_DEFAULT;
 extern NSString *const JS_RECEIVE_MOVE_EVENT;
